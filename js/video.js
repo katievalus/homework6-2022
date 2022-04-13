@@ -33,13 +33,13 @@ document.querySelector("#faster").addEventListener("click", function() {
 
 document.querySelector("#mute").addEventListener("click", function() {
 	var muteStatus = document.querySelector('#mute').innerHTML;
-	if(muteStatus == "mute"){
+	if(muteStatus == "Mute"){
 		video.muted = true;
-		document.querySelector('#mute').innerHTML = 'unmute'
+		document.querySelector('#mute').innerHTML = 'Unmute'
 	}
 	else{
 		video.muted = false;
-		document.querySelector('#mute').innerHTML = 'mute'
+		document.querySelector('#mute').innerHTML = 'Mute'
 	}
 });
 document.querySelector("#skip").addEventListener("click", function() {
